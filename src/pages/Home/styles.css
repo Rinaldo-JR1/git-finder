@@ -1,0 +1,72 @@
+.content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.background {
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+.info {
+  width: 60%;
+  margin-right: 90px;
+  margin-top: 4vh;
+  color: white;
+}
+input {
+  border-radius: 12px;
+  border: 1px solid;
+  min-width: 250px;
+  width: 80%;
+  margin-right: 12px;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+  padding: 1.2vh;
+}
+button {
+  border-radius: 12px;
+  border: 1px solid;
+  background-color: #2d333b;
+  font-size: 18px;
+  color: white;
+  padding: 1.2vh;
+}
+.perfil {
+  display: flex;
+  margin: 20px 0;
+}
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid white;
+  margin-right: 32px;
+}
+
+.perfil h3 {
+  color: #999999 !important;
+  font-size: 24px;
+  margin: 0;
+}
+.perfil span {
+  display: block;
+  color: #999999 !important;
+  font-size: 12px;
+  margin: 0;
+}
+.perfil p {
+  color: #999999 !important;
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+/* https://api.github.com/users/username */
+/* https://api.github.com/users/username/repos */
+.repositorio {
+  font-size: 32px;
+  color: white;
+  margin: 12px, 0;
+  text-align: center;
+}
